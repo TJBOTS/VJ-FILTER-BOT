@@ -382,7 +382,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>Hey {message.from_user.mention}, You are successfully verified Today !\nNow you have unlimited access for all movies till today midnight./nNow search 🔎 movies again and get without go on any site/nENJOY 🙂☺️☺️</b>",
+                text=f"<b>Hey {message.from_user.mention}, You are successfully verified today !\nNow you have unlimited access for all movies till today midnight./nNow search 🔎 movies again and get without go on any site/nENJOY 🙂☺️☺️</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -460,7 +460,7 @@ async def start(client, message):
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
                     await message.reply_text(
-                        text="<b>You are not verified !\nKindly verify to continue !</b>",
+                        text="<b>You are not verified today !\nKindly verify to continue !/nAfter verify you have unlimited access for all movies till today</b>",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -533,7 +533,7 @@ async def start(client, message):
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
                     await message.reply_text(
-                        text="<b>You are not verified !\nKindly verify to continue !</b>",
+                        text="<b>You are not verified today !\nKindly verify to continue !/nAfter verify you have unlimited access for all movies till today</b></b>",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -552,7 +552,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/teekam_jaat")
                 ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -605,7 +605,7 @@ async def start(client, message):
                 InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
             ]]
             await message.reply_text(
-                text="<b>You are not verified !\nKindly verify to continue !</b>",
+                text="<b>You are not verified today !\nKindly verify to continue !/nAfter verify you have unlimited access for all movies till today</b></b>",
                 protect_content=True,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
