@@ -14,7 +14,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
     ABOUT_TXT = """<b><blockquote>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
     
 ‣ MY OWNER : <a href=https://t.me/teekam_jaat>🍁 𝐓𝐞𝐞𝐤𝐚𝐦</a 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/teekam_jaat'>🍁 𝐓𝐞𝐞𝐤𝐚𝐦</a> 
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/teekam_jaat>🍁 𝐓𝐞𝐞𝐤𝐚𝐦</a> 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
