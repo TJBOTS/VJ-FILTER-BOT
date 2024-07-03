@@ -39,7 +39,7 @@ async def give_filter(client, message):
         settings = await get_settings(message.chat.id)
         chatid = message.chat.id 
         user_id = message.from_user.id if message.from_user else 0
-        if settings['fsub'] != None:
+        if settings.get('fsub') != None:
             try:
                 btn = await pub_is_subscribed(client, message, settings['fsub'])
                 if btn:
@@ -54,7 +54,7 @@ async def give_filter(client, message):
         if manual == False:
             settings = await get_settings(message.chat.id)
             try:
-                if settings['auto_ffilter']:
+                if settings.get('auto_ffilter'):
                     ai_search = True
                     reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
                     await auto_filter(client, message.text, message, reply_msg, ai_search)
@@ -62,7 +62,7 @@ async def give_filter(client, message):
                 grpid = await active_connection(str(message.from_user.id))
                 await save_group_settings(grpid, 'auto_ffilter', True)
                 settings = await get_settings(message.chat.id)
-                if settings['auto_ffilter']:
+                if settings.get('auto_ffilter'):
                     ai_search = True
                     reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
                     await auto_filter(client, message.text, message, reply_msg, ai_search)
@@ -2780,7 +2780,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
     FRESH[key] = search
     temp.GETALL[key] = files
     temp.SHORT[message.from_user.id] = message.chat.id
-    if settings["button"]:
+    if settings.get("button"):
         btn = [
             [
                 InlineKeyboardButton(
