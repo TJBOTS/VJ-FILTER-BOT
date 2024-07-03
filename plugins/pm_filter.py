@@ -2983,7 +2983,7 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
     SPELL_CHECK[mv_id] = movielist
     if AI_SPELL_CHECK == True and vj_search == True:
         vj_search_new = False
-        vj_ai_msg = await reply_msg.edit_text("<b><i>⚡ 𝑨𝒄𝒕𝒊𝒗𝒆 𝑺𝒖𝒑𝒑𝒆𝒓 𝑺𝒑𝒆𝒍𝒍𝒊𝒏𝒈 𝑪𝒉𝒆𝒌 ⚡</i></b>")
+        vj_ai_msg = await reply_msg.edit_text("<b><i>⚡ 𝐀𝐜𝐭𝐢𝐯𝐞 𝐒𝐮𝐩𝐩𝐞𝐫 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐂𝐡𝐞𝐤 ⚡</i></b>")
         movienamelist = []
         movienamelist += [movie.get('title') for movie in movies]
         for techvj in movienamelist:
