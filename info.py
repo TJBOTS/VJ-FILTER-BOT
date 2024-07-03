@@ -63,7 +63,7 @@ REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal coun
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/17d8d7eaeeeef0efe4285.jpg')
 PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs - \n\n- 10ʀs - 1 ᴡᴇᴇᴋ\n- 30ʀs - 1 ᴍᴏɴᴛʜs\n- 100ʀs - 3 ᴍᴏɴᴛʜs\n- 180ʀs - 6 ᴍᴏɴᴛʜs\n- 350ʀs - 12 ᴍᴏɴᴛʜs\n🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs 🎁\n\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ\n○ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n○ ʜɪɢʜ-sᴘᴇᴇᴅ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ\n○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs\n○ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs\n○ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n○ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 1ʜ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ\n\n✨ ᴜᴘɪ ɪᴅ - <code>teekamjaat1@axl</code>\n\nᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan\n\n💢 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ\n\n‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ</b>')
-OWNER_USERNAME = environ.get('OWNER_USERNAME', 'kingvj01') # owner username without @
+OWNER_USERNAME = environ.get('OWNER_USERNAME', 'teekam_jaat') # owner username without @
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+X6JIRNl5xeQxYzY1')
@@ -78,7 +78,7 @@ IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
@@ -91,19 +91,19 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'zipshort.net')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'c6bf8cb7fdbe48042e55a40955112c379340c0c9')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', '')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/tj_bots_zyz/3')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c6bf8cb7fdbe48042e55a40955112c379340c0c9')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "10")
@@ -148,7 +148,7 @@ RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
 AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False)) # Set True or False
 
 # Save Restricted Info : If True Then Bot Save Content From Restricted Channel Else Not
-SAVE_RESTRICTED_MODE = bool(environ.get('SAVE_RESTRICTED_MODE', False)) # Set True or False
+SAVE_RESTRICTED_MODE = bool(environ.get('SAVE_RESTRICTED_MODE', True)) # Set True or False
 
 # if SAVE_RESTRICTED_MODE is True Then Fill String Session Variable In Your Server Environment Variable, If Flase Then No Need To Fill.
 # Warning: Never Fill String Session Variable In Your Repo, If You Fill Then Your Account Can Be Access By Anyone.
