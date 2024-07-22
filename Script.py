@@ -90,7 +90,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 my features Stay here new features coming soon...  
  <b>✯ Maintained by : <a href=https://t.me/teekam_jaat>🍁 𝐓𝐞𝐞𝐤𝐚𝐦</a></b>
   
- <b>✯ Join here : <a href=https://t.me/tj_bots>☢Join my updateds☢</a></b> 
+ <b>✯ Join here : <a href=https://t.me/Moviestudioabhi>☢Join my updateds☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -682,7 +682,7 @@ special Thanks To ❤️ Developers -
 
 -Dev 1 [Owner of this bot ]<a href='https://t.me/teekam_jaat'>🍁 𝐓𝐞𝐞𝐤𝐚𝐦</a>
 
--Dev 2 <a href='https://t.me/tj_bots'>🍁 𝐓𝐉 𝐁𝐎𝐓𝐒</a>
+-Dev 2 <a href='https://t.me/Moviestudioabhi'>🍁 𝐓𝐉 𝐁𝐎𝐓𝐒</a>
 
 
 """
