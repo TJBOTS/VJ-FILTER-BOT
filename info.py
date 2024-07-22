@@ -24,15 +24,15 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 10))
-PICS = (environ.get('PICS', 'https://graph.org/file/88693b0abe1481e5a11a9.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/511d44d1131b2a889a176.jpg https://graph.org/file/a963b6c7791ef421be902.jpg https://graph.org/file/48118f8f5dec27fa9c15f.jpg https://graph.org/file/510e374a065a9e3a9b74a.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-100214429229'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5469498838').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002046685711').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
@@ -40,7 +40,7 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
 REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', False)) # Set True Or False
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', False)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub)
-auth_channel = environ.get('AUTH_CHANNEL', '-1002028848173') # give your force subscribe channel id here else leave it blank
+auth_channel = environ.get('AUTH_CHANNEL', '-1001841340007') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002115486459')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
@@ -51,9 +51,9 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://teekam_jaat:9571404334@teekam.dwrhczx.mongodb.net/?retryWrites=true&w=majority&appName=Teekam")
-DATABASE_NAME = environ.get('DATABASE_NAME', "tjbot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'tjbotdatabase')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://User:User@aabhi.9lafcjp.mongodb.net/?retryWrites=true&w=majority&appName=aabhi")
+DATABASE_NAME = environ.get('DATABASE_NAME', "MVP_Abhi")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
@@ -66,8 +66,8 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'teekam_jaat') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+X6JIRNl5xeQxYzY1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/tj_bots')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movie_Studio_Request')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Moviestudioabhi')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/tj_bots_zyz/3')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TJ_BOTS_SUPPORT') # Support Chat Link Without https:// or @
 
