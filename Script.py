@@ -13,13 +13,13 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b><blockquote>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
     
-‣ 👨‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/iam_abhi_boy>🍁 𝐀𝐛𝐡𝐢</a 
-‣  : <a href=https://t.me/teek></a> 
-‣ 👑ᴏwɴᴇʀ : <a href='https://t.me/iam_abhi_boy'>🍁 𝐀𝐛𝐡𝐢</a> 
-‣ 📝ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
-‣ ♻️ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ 📡ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
-‣ 🥶ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
+ 👨‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/iam_abhi_boy>🍁 𝐀𝐛𝐡𝐢</a 
+  : <a href=https://t.me/teek></a> 
+ 👑ᴏwɴᴇʀ : <a href='https://t.me/iam_abhi_boy'>🍁 𝐀𝐛𝐡𝐢</a> 
+ 📝ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
+ ♻️ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
+ 📡ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
+ 🥶ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     SUBSCRIPTION_TXT = """
 <b>ʀᴇғᴇʀʀᴇ ʏᴏᴜʀ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ғᴀᴍɪʟʏ, ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ {}
@@ -680,7 +680,7 @@ Also your tutorial will be Added Your Group..."""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developers -
 
--Dev 1 [Owner of this bot ]<a href='https://t.me/teekam_jaat'>🍁 𝐓𝐞𝐞𝐤𝐚𝐦</a>
+-Dev 1 [Owner of this bot ]<a href='https://t.me/iam_abhi_boy'>🍁 Abhi</a>
 
 -Dev 2 <a href='https://t.me/Moviestudioabhi'>🍁 𝐓𝐉 𝐁𝐎𝐓𝐒</a>
 
