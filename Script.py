@@ -6,14 +6,14 @@
 class script(object):
     START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
-HEY Aryans GOOD NIGHT I AM POWERFULL MOVIES & SERIES PROVIDER BOT JUST SEND ME ANY MOVIES & SERIES NAME<b>"""
+HEY I AM POWERFULL MOVIES & SERIES PROVIDER BOT JUST SEND ME ANY MOVIES & SERIES NAME<b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b><blockquote>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
     
-‣ 👨‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/teekam_jaat>🍁 𝐓𝐞𝐞𝐤𝐚𝐦</a 
+‣ 👨‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/iam_abhi_boy>🍁 𝐀𝐛𝐡𝐢</a 
 ‣  : <a href=https://t.me/teek></a> 
 ‣ 👑ᴏwɴᴇʀ : <a href='https://t.me/iam_abhi_boy'>🍁 𝐀𝐛𝐡𝐢</a> 
 ‣ 📝ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
