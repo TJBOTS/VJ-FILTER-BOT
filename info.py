@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 10))
-PICS = (environ.get('PICS', 'https://graph.org/file/511d44d1131b2a889a176.jpg https://graph.org/file/a963b6c7791ef421be902.jpg https://graph.org/file/48118f8f5dec27fa9c15f.jpg https://graph.org/file/510e374a065a9e3a9b74a.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', ''https://envs.sh/GIt.jpg https://envs.sh/j2m.mp4')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -47,7 +47,7 @@ REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002059362019')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002197083917')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
@@ -63,13 +63,13 @@ REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal coun
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/24656c495f877f71e58f4.jpg')
 PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- á´€á´ á´€ÉªÊŸá´€Ê™ÊŸá´‡ á´˜ÊŸá´€É´s - \n\n- 10Ê€s - 1 á´¡á´‡á´‡á´‹\n- 30Ê€s - 1 á´á´É´á´›Êœs\n- 100Ê€s - 3 á´á´É´á´›Êœs\n- 180Ê€s - 6 á´á´É´á´›Êœs\n- 350Ê€s - 12 á´á´É´á´›Êœs\nðŸŽ á´˜Ê€á´‡á´Éªá´œá´ Ò“á´‡á´€á´›á´œÊ€á´‡s ðŸŽ\n\nâ—‹ É´á´ É´á´‡á´‡á´… á´›á´ á´ á´‡Ê€ÉªÒ“Ê\nâ—‹ É´á´ É´á´‡á´‡á´… á´›á´ á´á´˜á´‡É´ ÊŸÉªÉ´á´‹\nâ—‹ á´…ÉªÊ€á´‡á´„á´› Ò“ÉªÊŸá´‡s\nâ—‹ á´€á´…-Ò“Ê€á´‡á´‡ á´‡xá´˜á´‡Ê€Éªá´‡É´á´„á´‡\nâ—‹ ÊœÉªÉ¢Êœ-sá´˜á´‡á´‡á´… á´…á´á´¡É´ÊŸá´á´€á´… ÊŸÉªÉ´á´‹\nâ—‹ á´á´œÊŸá´›Éª-á´˜ÊŸá´€Êá´‡Ê€ sá´›Ê€á´‡á´€á´ÉªÉ´É¢ ÊŸÉªÉ´á´‹s\nâ—‹ á´œÉ´ÊŸÉªá´Éªá´›á´‡á´… á´á´á´ Éªá´‡s & sá´‡Ê€Éªá´‡s\nâ—‹ êœ°á´œÊŸÊŸ á´€á´…á´ÉªÉ´ sá´œá´˜á´˜á´Ê€á´›\nâ—‹ Ê€á´‡Ç«á´œá´‡sá´› á´¡ÉªÊŸÊŸ Ê™á´‡ á´„á´á´á´˜ÊŸá´‡á´›á´‡á´… ÉªÉ´ 1Êœ Éªêœ° á´€á´ á´€ÉªÊŸá´€Ê™ÊŸá´‡\n\nâœ¨ á´œá´˜Éª Éªá´… - <code>abhishek.ly@axl</code>\n\ná´„ÊŸÉªá´„á´‹ á´›á´ á´„Êœá´‡á´„á´‹ Êá´á´œÊ€ á´€á´„á´›Éªá´ á´‡ á´˜ÊŸá´€É´ /myplan\n\nðŸ’¢ á´á´œsá´› sá´‡É´á´… sá´„Ê€á´‡á´‡É´sÊœá´á´› á´€Ò“á´›á´‡Ê€ á´˜á´€Êá´á´‡É´á´›\n\nâ€¼ï¸ á´€Ò“á´›á´‡Ê€ sá´‡É´á´…ÉªÉ´É¢ á´€ sá´„Ê€á´‡á´‡É´sÊœá´á´› á´˜ÊŸá´‡á´€sá´‡ É¢Éªá´ á´‡ á´œs sá´á´á´‡ á´›Éªá´á´‡ á´›á´ á´€á´…á´… Êá´á´œ ÉªÉ´ á´›Êœá´‡ á´˜Ê€á´‡á´Éªá´œá´</b>')
-OWNER_USERNAME = environ.get('OWNER_USERNAME', 'iam_abhi_boy') # owner username without @
+OWNER_USERNAME = environ.get('OWNER_USERNAME', 'teekam_jaat') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movie_ Studio_Request')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Mo viestudioabhi')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+sBQBAjfyKqM5YWY1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+WUxToIDu24liMjVl')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/tj_bots_z')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movije_studio_support_group') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'teekam_jaat') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
